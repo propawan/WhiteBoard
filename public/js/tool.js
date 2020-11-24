@@ -39,3 +39,7 @@ hamburger.addEventListener("click", function () {
 
     socket.emit("hamburger");
 });
+
+socket.on("mousedown", function (point) {
+    console.log("Received " + point);
+});
