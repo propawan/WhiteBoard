@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("https://useboard.herokuapp.com/");
+const socket = io.connect();
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
